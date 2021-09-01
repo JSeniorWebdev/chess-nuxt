@@ -1,0 +1,84 @@
+.main-container {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin: 24px auto 0 auto;
+
+  @media (max-width: 1484px) {
+    width: 95%;
+  }
+
+  @media (max-width: 701px) {
+    display: block;
+  }
+
+  &__left {
+    width: 100%;
+    display: block;
+    padding-right: 16px;
+
+    &__title {
+      font-weight: 700;
+      font-size: 21px;
+      padding-bottom: 8px;
+    }
+
+    &__expanded {
+      width: 100%;
+    }
+
+    &__info {
+      font-weight: 700;
+      font-size: 16;
+      padding-bottom: 8px;
+      display: flex;
+
+      &__participants {
+        padding-left: 10px;
+      }
+    }
+
+    &__desc {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    &__chip {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__right {
+    width: 50%;
+    text-align: center;
+
+    @media (max-width: 700px) {
+      width: 100%;
+    }
+
+    &__button {
+      display: flex;
+      margin: 0 auto;
+      width: 80%;
+
+      @media (max-width: 700px) {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.hide {
+  @media (max-width: 701px) {
+    display: none;
+  }
+}
+
+.max-width {
+  width: 100%;
+}

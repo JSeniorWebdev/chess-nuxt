@@ -1,0 +1,122 @@
+.competitions {
+  &__header {
+    background: #71AB4F;
+    height: 15vh;
+    width: 100%;
+
+    &__content {
+      padding-top: 16px;
+      padding-left: 16px;
+      color: white;
+      width: 45%;
+      margin: 0 auto;
+
+      @media (max-width: 1484px) {
+        width: 95%;
+      }
+
+      &__dashboard {
+        align-items: center;
+        display: flex;
+      }
+
+      &__img {
+        margin-right: 2vw;
+        height: 20px;
+        width: 20px;
+      }
+
+      &__details {
+        color: black;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .body {
+    width: 45%;
+
+    @media (max-width: 1484px) {
+      width: 95%;
+    }
+
+    &__list {
+      margin-top: 24px;
+
+      @media (max-width: 1484px) {
+        width: 95%;
+      }
+    }
+
+    &__play-bottom {
+      color: white;
+      padding: 16px;
+      display: block;
+      visibility: hidden;
+      justify-content: space-evenly;
+      background-color: green;
+
+      &__icon-spacing {
+        padding-right: 10px;
+      }
+
+      &__content {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 12px;
+      }
+
+      @media (max-width: 700px) {
+        visibility: visible;
+        position: sticky;
+        bottom: 0;
+        background: #71AB4F;
+      }
+
+      &__button {
+        width: 100%;
+      }
+    }
+
+    &__rankings {
+      margin: 0 auto;
+      width: 45%;
+
+      @media (max-width: 1484px) {
+        width: 95%;
+      }
+
+      &__heading {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__view-all {
+        color: #4B79D2;
+        font-weight: 800;
+        font-size: 14px;
+      }
+
+      &__title {
+        margin-bottom: 24px;
+        color: black;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      &__list {
+        @media (max-width: 700px) {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}
+
+.icon-spacing {
+  padding-right: 10px;
+}
+
+.tm {
+  margin-top: 24px;
+}

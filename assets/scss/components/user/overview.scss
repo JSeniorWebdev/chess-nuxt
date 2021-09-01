@@ -1,0 +1,30 @@
+
+.main-container {
+  margin: 0 auto;
+
+  &__view-all {
+    color: #4B79D2;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  &__divider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__header {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.view-margin-top-16 {
+  margin-top: 16px;
+}
+
+.view-margin-bottom-24 {
+  margin-bottom: 24px;
+}
